@@ -6,10 +6,9 @@ body{
     background-color: white;
     font-size: 18px;
     height: 100vh;  
+    display: grid;
+    place-items: center;
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 .container {
     display: flex;
@@ -50,15 +49,15 @@ body{
     padding: 0 20px;
     font-size: 16px;
 }
-main .summary {
+.summary {
     width: 50%;
     padding: 30px;
 }
-main .summary ul {
+.summary ul {
     list-style: none;
     width: 240px;
 }
-main .summary ul li {
+.summary ul li {
     margin-left: -40px;
     margin-bottom: 15px;
     padding: 18px;
@@ -66,36 +65,36 @@ main .summary ul li {
     display: flex;
     justify-content: space-between;
 }
-main .summary ul .reaction {
+.summary ul .reaction {
     background-color: hsl(0, 58%, 95%, 0.5) ;
     color: hsl(0 100% 67% / 75%);
     border-radius: 10px;
 }
-main .summary ul .memory{
+.summary ul .memory{
     background-color:hsl(38, 100%, 96%) ;
     color:  hsl(39 100% 56% / 75%);
     border-radius: 10px;
 }
-main .summary ul .verbal{
+.summary ul .verbal{
     background-color: hsl(163, 58%, 95%, 0.7);
     color: hsl(166 100% 37% / 75%);
     border-radius: 10px;
 }
-main .summary ul .visual{
+.summary ul .visual{
     background-color: hsl(235, 67%, 96%, 0.7);
     color: hsl(234 85% 45% /75%);
     border-radius: 10px;
 }
-main .summary ul li i {
+.summary ul li i {
     margin-right: 10px;
 }
-main .summary ul span {
+.summary ul span {
     color: hsl(223deg 9% 63%)
 }
-main .summary ul li .percent {
+.summary ul li .percent {
     color: hsl(224, 30%, 27%);
 } 
-main .summary a {
+.summary a {
     text-decoration: none;
     background-color:  hsl(224, 30%, 27%);
     color: white;
@@ -109,6 +108,10 @@ main .summary a {
     .container {
         flex-direction: column;
         width: 375px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
     .result {
         padding: 10px;
@@ -122,10 +125,10 @@ main .summary a {
         font-size: 45px;
     }
     .container .summary {
-        width: 100%;
+        width: 95%;
         padding: 25px;
     }
-    main .container .summary ul {
+        .container .summary ul {
         width: 100%;
     }
     .container .summary ul li {
