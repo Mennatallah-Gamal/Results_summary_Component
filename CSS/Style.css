@@ -7,7 +7,7 @@ body{
     font-size: 18px;
     height: 100vh;  
     display: grid;
-    place-items: center;
+    place-items: center;   
 }
 .container {
     display: flex;
@@ -106,7 +106,8 @@ body{
 @media (max-width:767px){
     .container {
         flex-direction: column;
-        width: 375px;
+        width: 300px;
+        
     }
     .result {
         padding: 10px;
