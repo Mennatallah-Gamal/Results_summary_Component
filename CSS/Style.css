@@ -12,7 +12,7 @@ body{
 }
 .container {
     display: flex;
-    width: 800px;
+    width: 700px;
     border-radius: 15px;
     box-shadow: 6px 9px 11px 0px #ddd;
 }
@@ -44,10 +44,11 @@ body{
     color: hsl(223, 8%, 83%);
     margin-top: -45px;
     font-size: 15px;
+    padding: 0 30px;
 }
 .container .result p {
     color: hsl(216, 4%, 75%);
-    padding: 0 20px;
+    padding: 0 40px;
     font-size: 16px;
 }
 .summary {
