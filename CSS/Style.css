@@ -126,6 +126,13 @@ main .summary a {
         padding: 20px;
         width: 100%;
     }
+    .container .result .circle {
+        width: 140px;
+        height: 140px;
+    }
+    .container .result .circle h1 {
+        font-size: 45px;
+    }
     .container .summary {
         width: 100%;
         padding: 25px;
