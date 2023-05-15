@@ -10,13 +10,6 @@ body{
     place-items: center;
     font-size: 18px;
 }
-@media (min-width: 768px) {
-    body {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-}
 main {
     background-color: white;
 }
@@ -123,7 +116,7 @@ main .summary a {
         width: 375px;
     }
     .result {
-        padding: 15px;
+        padding: 10px;
         width: 100%;
     }
     .container .result .circle {
