@@ -113,7 +113,7 @@ a:hover {
 @media (max-width:767px){
     .container {
         flex-direction: column;
-        width: 300px;
+        width: 350px;
         
     }
     .result {
